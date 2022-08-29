@@ -85,7 +85,12 @@ img {
   height: 80px;
   display: flex;
   align-items: center;
-  padding: 0 15px;
+  padding: 0 27px 0 15px;
+}
+
+.header nav {
+  flex-grow: 1;
+  margin: 0 0 0 93px;
 }
 
 .banner {
@@ -110,10 +115,6 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   font-weight: 500;
-}
-
-.nav {
-  margin: 0 371px 0 93px;
 }
 
 .nav li:not(:last-child) {
